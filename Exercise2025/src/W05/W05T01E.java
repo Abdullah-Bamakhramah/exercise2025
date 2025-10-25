@@ -26,6 +26,8 @@ public class W05T01E {
             case 6 -> System.out.println("Saturday");
             case 7 -> System.out.println("Sunday");
         }
+        // Close the Scanner to prevent resource leak
+        d.close();
     }
     
 }

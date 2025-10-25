@@ -1,3 +1,5 @@
+package W04;
+
 import java.util.Random;
 
 public class W06T06B {

@@ -14,9 +14,13 @@ public class W10D01 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        // Create and use Animal instance
         Animal animal = new Animal("Cat");
+        System.out.println("Animal: " + animal.Animal);
+        
+        // Create and use Number instance
         Number number = new Number(20, 40);
+        System.out.println("Numbers: " + number.num1 + ", " + number.num2);
     }
     
 }

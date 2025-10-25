@@ -36,5 +36,8 @@ public class W02E05 {
 
         // --- Console Output Example ---
         System.out.println("\nHello, " + userName + "! You are " + userAge + " years old.");
+        
+        // Close the Scanner to prevent resource leak
+        input.close();
     }
 }
